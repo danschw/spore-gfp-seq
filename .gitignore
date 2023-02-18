@@ -1,7 +1,10 @@
 # template from https://raw.githubusercontent.com/github/gitignore/main/R.gitignore
 
-# data
+# data and others code
 /data/input/*
+/data/dedup/*fastq.gz
+
+/code/tools/*
 
 # History files
 .Rhistory

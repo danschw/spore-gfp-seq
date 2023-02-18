@@ -1,0 +1,48 @@
+{ "hts_SuperDeduper": {
+    "Program_details": {
+        "program": "hts_SuperDeduper",
+        "version": "v1.3.0-release",
+        "options": {
+            "avg-qual-score": 30,
+            "fastq-output": "/N/slate/danschw/spore-gfp-seq/data/dedup/GSF3121-delta6-GFP-col55",
+            "force": false,
+            "inform-avg-qual-score": 5,
+            "length": 10,
+            "log_freq": 1000000,
+            "notes": "",
+            "read1-input": [ "/N/slate/danschw/spore-gfp-seq/data/input/sequencing_reads/GSF3121-delta6-GFP-col55_S62_R1_001.fastq.gz"],
+            "read2-input": [ "/N/slate/danschw/spore-gfp-seq/data/input/sequencing_reads/GSF3121-delta6-GFP-col55_S62_R2_001.fastq.gz"],
+            "start": 10,
+            "stats-file": "/N/slate/danschw/spore-gfp-seq/data/dedup/GSF3121-delta6-GFP-col55.log",
+            "uncompressed": false
+        }
+    },
+    "Fragment": {
+        "in": 2296401,
+        "out": 2127678,
+        "basepairs_in": 693513102,
+        "basepairs_out": 642558756,
+        "ignored": 164,
+        "duplicate": 168559,
+        "duplicate_saturation": [ [1000000,40155], [2000000,132564], [2296401,168559] ]
+    },
+    "Single_end": {
+        "in": 0,
+        "out": 0,
+        "basepairs_in": 0,
+        "basepairs_out": 0
+    },
+    "Paired_end": {
+        "in": 2296401,
+        "out": 2127678,
+        "Read1": {
+            "basepairs_in": 346756551,
+            "basepairs_out": 321279378
+        },
+        "Read2": {
+            "basepairs_in": 346756551,
+            "basepairs_out": 321279378
+        }
+    }
+  }
+}
