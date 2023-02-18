@@ -3,8 +3,10 @@
 # data and others code
 /data/input/*
 /data/dedup/*fastq.gz
-
+/data/trimmed/*
 /code/tools/*
+
+.*slurm.*out
 
 # History files
 .Rhistory
